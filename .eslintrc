@@ -1,0 +1,6 @@
+{
+  "extends": "@unhandled",
+  "rules": {
+    "quotes": ["warn", "double"]
+  }
+}
