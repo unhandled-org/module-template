@@ -75,7 +75,7 @@ const number = numberFactory(
         config: {
             start: 0,
             end: 1000,
-            options: { 'decimals': 8}
+            options: { decimals: 8}
         }
     }
 );
