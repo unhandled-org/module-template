@@ -7,7 +7,7 @@ Please include a summary of the change and which issue is fixed. Please also inc
 
 ## Make sure the following is correct before submitting this PR
 
-- [ ] Your PR is properly named: "ISSUE-## A short description". Should follow the "Verb in present tense" format (Examples: "PANSWE-102 Add new map for..." , "PANSWE-103 Delete legacy code in tests for..."
+- [ ] Your PR is properly named: "ISSUE-## A short description". Should follow the "Verb in present tense" format (Examples: "ISSUE-102 Add new map for..." , "ISSUE-103 Delete legacy code in tests for..."
 - [ ] Linting and tests for environment pass.
 - [ ] Assign a reviewer (After agreement with the person)
 - [ ] The branch is rebased on the current master branch
