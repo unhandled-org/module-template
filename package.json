@@ -4,12 +4,12 @@
   "description": "Node module template",
   "main": "index.js",
   "scripts": {
-  "start": "node index.js",
-  "example": "NODE_ENV=development node example.js",
-  "test": "NODE_ENV=test mocha 'test/**/*.test.js' -r 'test/setup.js' --exit",
-  "test:watch": "NODE_ENV=test mocha 'test/**/*.test.js' -r 'test/setup.js' --watch --reporter min",
-  "test:cover": "NODE_ENV=test nyc mocha 'test/**/*.test.js' -r 'test/setup.js' --exit",
-  "lint": "eslint \"**/*.js\" --ignore-pattern node_modules"
+    "start": "node index.js",
+    "example": "NODE_ENV=development node example.js",
+    "test": "NODE_ENV=test mocha 'test/**/*.test.js' -r 'test/setup.js' --exit",
+    "test:watch": "NODE_ENV=test mocha 'test/**/*.test.js' -r 'test/setup.js' --watch --reporter min",
+    "test:cover": "NODE_ENV=test nyc mocha 'test/**/*.test.js' -r 'test/setup.js' --exit",
+    "lint": "eslint \"**/*.js\" --ignore-pattern node_modules"
   },
   "engines": {
     "node": ">= 6.10",
@@ -22,19 +22,19 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-  "url": "https://github.com/unhandled-org/un-nm-temmplate/issues"
+    "url": "https://github.com/unhandled-org/un-nm-temmplate/issues"
   },
   "homepage": "https://github.com/unhandled-org/un-nm-temmplate#readme",
   "dependencies": {
-    "dotenv": "^6.0.0",
-    "joi": "^13.6.0"
+    "dotenv": "^6.1.0",
+    "joi": "^14.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "sinon": "^6.3.4",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^5.7.0",
     "faker": "^4.1.0",
     "mocha": "^5.2.0",
-    "chai": "^4.1.2",
-    "chai-as-promised": "^7.1.1"
+    "sinon": "^7.0.0"
   }
 }
